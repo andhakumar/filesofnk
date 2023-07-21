@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nature</title>
+    <link rel="stylesheet" href="bootstrap-5.0.2-dist/css/bootstrap.min.css">
+    <script src="bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
+    <style>
+         button:hover{
+            background-color:cadetblue;
+            transition: .5s;
+           }
+
+    </style>
+</head>
+<body class="bg-dark">
+    <div class="container">
+        <img src="C:\Users\nandh\OneDrive\Pictures\Saved Pictures\light-water-closeup-nature-rain-drops-wet-hanging-macro-depth-of-field-bulbs-string-rain-on-glass-nature-fields-hd-art-wallpaper-preview.jpg" width="70%" height="50%" alt="Water" class="img-thumbnail mx-auto d-block">
+    
+        <div class="btn-group mt-4">
+            <button class="mx-1 border-0 btn btn-lg rounded" data-bs-toggle="modal" data-bs-target="#like"><span class="text-warning fw-bold"> Like </span>👍</button>
+            <button class="mx-1 border-0 btn btn-lg rounded" data-bs-toggle="modal" data-bs-target="#dislike"><span class="text-warning fw-bold"> Dislike</span>👎</button>
+            <button class="mx-1 border-0 btn btn-lg rounded" data-bs-toggle="modal" data-bs-target="#share"><span class="text-warning fw-bold"> Share</span> 🤝</button>
+        </div>
+
+        <a style="background-color: red;" class="btn mt-5 float-end border-0 img-thumbnail px-3" data-bs-toggle="modal" data-bs-target="#sub"><span class="text-light fw-bold">Follow</span></a>
+    </div>
+
+    <div class="modal" id="like">
+        <div class="modal-dialog modal-sm">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1>Like</h1>
+                    <button  type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <p><strong>Hurray!!!!</strong><br> You liked the Image.🧡🧡🧡💔💔</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal" id="dislike">
+        <div class="modal-dialog modal-sm">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1>Dislike</h1>
+                    <button  type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <p><strong>Oops!!!</strong><br> You disliked the Image.💔💔<br> We will try to satisfy you in future.<br> <strong>Keep visiting us and give feedback!!!!!</strong> </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal" id="share">
+        <div class="modal-dialog  modal-sm">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1>Share</h1>
+                    <button  type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <p><strong>Wow!!!!</strong><br> Thanks for sharing the Image🙏🙏.<br> Keep visiting us💥💥💥</p>
+                    <p>Copy your link to share the Image<br><a href="#">https://www.nataure-jpg.com</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal" id="sub">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1>Follow</h1>
+                    <button  type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <p><strong>Thanks!!!!</strong><br> You are currently Following the Channel.🔥🔥🔥🔥<br> Keep visiting us and give your support💥💥!!!!!</p>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
